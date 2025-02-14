@@ -1,0 +1,64 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Django-specific files
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+local_settings.py
+
+# Ignore environment variables
+.env
+*.env
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore compiled code
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Ignore migrations (optional, but useful if you regenerate them)
+project/**/migrations/
+!project/**/migrations/__init__.py
+
+# Ignore Django cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore system files (Windows/macOS/Linux)
+.DS_Store
+Thumbs.db
+*.swp
